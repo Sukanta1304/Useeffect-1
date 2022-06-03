@@ -44,7 +44,7 @@ useEffect(()=>{
      <input type="text" 
      value={Todo}
      onChange={({target})=>setTodo(target.value)}/>
-     <button onClick={addTodo}>Add</button>
+     <button onClick={addTodo}>Save</button>
      <div>{todos.map((todo)=>(
        <div key={todo.id}>{todo.name}</div>
      ))}</div>
